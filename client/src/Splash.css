@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.height {
+  height: 100vh;
+}
+
+.textsplash {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+@media only screen and (max-width: 400px) {
+  .textsplash {
+    color: blue;
+    font-size: 50px;
+  }
+  .btnsplash {
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 3px 6px;
+    font-weight: bold;
+  }
+}
+
+.btnsplash {
+  font-size: 20px;
+  padding: 15px 40px;
+  margin: 5px 10px;
+  font-weight: bold;
+}
